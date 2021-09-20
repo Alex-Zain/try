@@ -182,6 +182,7 @@ def login():
         cracking_menu()
     except (KeyError, IOError):
         os.system('clear')
+        print zmbflogo
         print ' [\033[1;97m\033[1;41m IF YOU DREAM IT CAN YOU DO IT \033[0m]'
         print '\033[1;97m--------------------------------------------'
         print '\033[1;37m  \033[1;30m> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN                '
