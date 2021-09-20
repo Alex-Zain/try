@@ -513,7 +513,6 @@ def myfoll(token):
 
 
 def public(token):
-    os.system('clear')
     print cracklogo
     print '[\033[1;97m\033[1;41m----------Cracking From Public ID---------\033[0m] '
     print '--------------------------------------------'
@@ -577,11 +576,11 @@ def pfoll(token):
 
 
 def crackz(file):
-    print '--------------------------------------------'
+    print '\x1b[0;97m--------------------------------------------'
     print ' [01] Start Cracking  Process   '
     print ' [02] Go Back To Cracking Menu  '
-    print '--------------------------------------------'
-    zk = raw_input('\n \x1b[0;97m Choose -> \033[1;32m')
+    print '\x1b[0;97m--------------------------------------------'
+    zk = raw_input('\x1b[0;97m Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
