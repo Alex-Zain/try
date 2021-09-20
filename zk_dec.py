@@ -268,9 +268,9 @@ def login():
         os.system('clear')
         print logo
         print '\033[1;97m--------------------------------------------'
-        print '\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )'
-        print '\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 '
-        print '\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420'
+        print '\033[1;37m  \033[1;37m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )'
+        print '\033[1;37m  \033[1;37m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 '
+        print '\033[1;37m  \033[1;37m-> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420'
         print '\033[1;97m--------------------------------------------'
     zk = raw_input('\n  Enter Password -> \033[1;32m')
     if zk == '':
@@ -398,14 +398,14 @@ def cracking_menu():
         exit(' \x1b[0;97m No Internet Connection! Try Again')
 
     print logo
-    print '--------------------------------------------'
-    print H + '| Name        : ' + H + H + '%s' % nama
-    print '| User ID     : ' + H + id
-    print '| User Dob    : ' + H + dob
-    print '| User Gender : ' + H + gender
-    print '--------------------------------------------'
+    print '\x1b[0;97m--------------------------------------------'
+    print H + ' \x1b[0;97mName        : \x1b[0;92m' + H + H + '%s' % nama
+    print ' \x1b[0;97mUser ID     : \x1b[0;92m' + H + id
+    print ' \x1b[0;97mUser Dob    : \x1b[0;92m' + H + dob
+    print ' \x1b[0;97mUser Gender : \x1b[0;92m' + H + gender
+    print '\x1b[0;97m--------------------------------------------'
     print ''
-    print '      [\033[1;97m\033[1;41m----------------Cracking Menu----------------\033[0m] '
+    print '[\033[1;97m\033[1;41m--------------Cracking Menu---------------\033[0m] '
     print '--------------------------------------------'
     print ' [01] Crack From Friends '
     print ' [02] Crack From Public '
