@@ -226,7 +226,7 @@ def results(ok, cp):
         zks('  Total Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
         print '\ Cracked Idz Has Been Saved In Cracked Folder  '
         print '\033[1;97m--------------------------------------------'
-        raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Press Any Key To Go Back To Cracking Menu: ')
+        raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Press Any Key To Go Back To Cracking Menu: ')
         cracking_menu()
     else:
         print '\n\x1b[0;97m No Cracked Idz Found!'
@@ -272,7 +272,7 @@ def login():
         print '\033[1;37m  \033[1;37m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 '
         print '\033[1;37m  \033[1;37m-> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420'
         print '\033[1;97m--------------------------------------------'
-    zk = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Enter Password -> \033[1;32m')
+    zk = raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Enter Password -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -299,7 +299,7 @@ def zmbf():
         print '   [3] Exit Program '
         print '-------------------------------'
 
-    zk = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Choose -> \033[1;32m')
+    zk = raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -321,7 +321,7 @@ def cookies():
     print cookieslogo
     print '[\033[1;97m\033[1;41m---------Login Using FB ID Cookies--------\033[0m]   '
     print '--------------------------------------------'
-    cookies = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Cookies -> \x1b[0;92m')
+    cookies = raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Cookies -> \x1b[0;92m')
     try:
         data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers={'user-agent': 'Mozilla/5.0 (Linux; Android 5.1; OPPO A37f Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36', 
            'referer': 'https://m.facebook.com/', 
