@@ -292,7 +292,7 @@ def zmbf():
         cracking_menu()
     except (KeyError, IOError):
         print loginlogo
-        print '     Login Menus '
+        print '     [\033[1;97m\033[1;41m----------------LOGIN MENU----------------\033[0m] '
         print '------------------------------'
         print '   [1] Login Using FB ID Access Token   '
         print '   [2] Login Using FB ID Cookies  '
@@ -319,7 +319,7 @@ def zmbf():
 def cookies():
     os.system('clear')
     print cookieslogo
-    print '     Login Using FB ID Cookies   '
+    print '[\033[1;97m\033[1;41m----------------Login Using FB ID Cookies----------------\033[0m]   '
     print '--------------------------------------------'
     cookies = raw_input(' \x1b[0;97mCookies -> \x1b[0;92m')
     try:
@@ -353,7 +353,7 @@ def tokenz():
         cracking_menu()
     except (KeyError, IOError):
         print tokenlogo
-        print '   Login Using FB ID Access Token  '
+        print '[\033[1;97m\033[1;41m----------------Login Using FB ID Access Token----------------\033[0m]  '
         print '\033[1;97m--------------------------------------------'
         
     token = raw_input(' \x1b[0;97m Token -> \x1b[0;92m')
@@ -405,7 +405,7 @@ def cracking_menu():
     print '| User Gender : ' + H + gender
     print '--------------------------------------------'
     print ''
-    print '      Cracking Menu '
+    print '      [\033[1;97m\033[1;41m----------------Cracking Menu----------------\033[0m] '
     print '--------------------------------------------'
     print ' [01] Crack From Friends '
     print ' [02] Crack From Public '
@@ -454,7 +454,7 @@ def cracking_menu():
 def friends(token):
     os.system('clear')
     print cracklogo
-    print '    Cracking From Friends '
+    print '    [\033[1;97m\033[1;41m----------------Cracking From Friends----------------\033[0m] '
     print '--------------------------------------------'
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
@@ -485,7 +485,7 @@ def friends(token):
 def myfoll(token):
     os.system('clear')
     print cracklogo
-    print '    Cracking From Followers '
+    print '    [\033[1;97m\033[1;41m----------------Cracking From Followers----------------\033[0m] '
     print '--------------------------------------------'
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
@@ -516,7 +516,7 @@ def myfoll(token):
 def public(token):
     os.system('clear')
     print cracklogo
-    print '   Cracking From Public '
+    print '   [\033[1;97m\033[1;41m----------------Cracking From Public ID----------------\033[0m] '
     print '--------------------------------------------'
     idt = raw_input('\x1b[0;97m Public ID -> \033[1;32m')
     try:
@@ -548,7 +548,7 @@ def public(token):
 def pfoll(token):
     os.system('clear')
     print cracklogo
-    print '     Cracking From Public Followers  '
+    print '     [\033[1;97m\033[1;41m----------------Cracking From Public Followers----------------\033[0m]  '
     print '--------------------------------------------'
     idt = raw_input('\x1b[0;97mPublic ID -> \033[1;32m')
     try:
@@ -581,7 +581,7 @@ def crackz(file):
     print '--------------------------------------------'
     print ' [01] Start Cracking  Process   '
     print ' [02] Go Back To Cracking Menu  '
-    print '-------------------------------'
+    print '--------------------------------------------'
     zk = raw_input('\n \x1b[0;97m Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
@@ -652,7 +652,7 @@ class crackmenu:
         elif zk in ('D', 'd', '1', '01'):
             os.system('clear')
             print logo
-            print ' Cracking Started '
+            print '[\033[1;97m\033[1;41m---------------- Cracking Started----------------\033[0m] '
             print '--------------------------------------------'
 
             self.passwords()
@@ -748,7 +748,7 @@ class crackmenu:
 def relogin():
     os.system('clear')
     print checkerlogo
-    print ' Checkpoints Checking Menu '
+    print '[\033[1;97m\033[1;41m----------------Checkpoints Checking Menu----------------\033[0m] '
     print '--------------------------------------------'
     print '\n\x1b[0;97m Example File Name: Cracked/cpz.txt'
     files = raw_input('\x1b[0;97m Enter Cracked Idz File Name -> \033[1;31m')
