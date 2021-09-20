@@ -454,7 +454,7 @@ def cracking_menu():
 def friends(token):
     os.system('clear')
     print cracklogo
-    print '    [\033[1;97m\033[1;41m----------------Cracking From Friends----------------\033[0m] '
+    print '[\033[1;97m\033[1;41m----------------Cracking From Friends----------------\033[0m] '
     print '--------------------------------------------'
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
@@ -485,7 +485,7 @@ def friends(token):
 def myfoll(token):
     os.system('clear')
     print cracklogo
-    print '    [\033[1;97m\033[1;41m----------------Cracking From Followers----------------\033[0m] '
+    print '[\033[1;97m\033[1;41m------------Cracking From Followers-------------\033[0m] '
     print '--------------------------------------------'
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
@@ -516,7 +516,7 @@ def myfoll(token):
 def public(token):
     os.system('clear')
     print cracklogo
-    print '   [\033[1;97m\033[1;41m----------------Cracking From Public ID----------------\033[0m] '
+    print '[\033[1;97m\033[1;41m----------Cracking From Public ID---------\033[0m] '
     print '--------------------------------------------'
     idt = raw_input('\x1b[0;97m Public ID -> \033[1;32m')
     try:
