@@ -113,7 +113,7 @@ def tod():
         time.sleep(1)
 
 
-zmbflogo ="\n\033[1;97m--------------------------------------------\n\033[1;37m  d888888b        d8888b. d88888b db    db\n\033[1;37m  `~~88~~'        88  `8D 88'     `8b  d8'\n\033[1;30m     88           88oobY' 88ooooo  `8bd8'\n\033[1;30m     88   C8888D  88`8b   88~~~~~  .dPYb.\n\033[1;37m     88           88 `88. 88.     .8P  Y8.\n\033[1;37m     YP           88   YD Y88888P YP    YP\n\033[1;97m--------------------------------------------\n                            \n "
+zmbflogo ="\n\033[1;97m--------------------------------------------\n\033[1;37m  d888888b        d8888b. d88888b db    db\n\033[1;37m  `~~88~~'        88  `8D 88'     `8b  d8'\n\033[1;30m     88           88oobY' 88ooooo  `8bd8'\n\033[1;30m     88   C8888D  88`8b   88~~~~~  .dPYb.\n\033[1;37m     88           88 `88. 88.     .8P  Y8.\n\033[1;37m     YP           88   YD Y88888P YP    YP\n\033[1;97m--------------------------------------------\n"
 loginlogo = "\n\t    _                 _       \n\t   | |               (_)      \n\t   | |     ___   __ _ _ _ __  \n\t   | |    / _ \\ / _` | | '_ \\ \n\t   | |___| (_) | (_| | | | | |\n\t   |______\\___/ \\__, |_|_| |_|\n\t                 __/ |        \n    \t                |___/         \n"
 cookieslogo = '\n           ___            _    _            \n          / __\\___   ___ | | _(_) ___  ___  \n         / /  / _ \\ / _ \\| |/ / |/ _ \\/ __| \n        / /__| (_) | (_) |   <| |  __/\\__ \\ \n        \\____/\\___/ \\___/|_|\\_\\_|\\___||___/ \n                                \n  '
 tokenlogo = "  \n\t    _______    _              \n\t   |__   __|  | |             \n\t      | | ___ | | _____ _ __  \n\t      | |/ _ \\| |/ / _ \\ '_ \\ \n\t      | | (_) |   <  __/ | | |\n\t      |_|\\___/|_|\\_\\___|_| |_|\n\t\t    \n "
@@ -183,17 +183,12 @@ def login():
     except (KeyError, IOError):
         os.system('clear')
         print zmbflogo
-        print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-        print '\xe2\x94\x9c             \xe2\x94\x9c Author Information \xe2\x94\xa4\t\t\t\xe2\x94\xa4'
-        print '\xe2\x94\x9c             \xe2\x94\x94\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x98             \xe2\x94\xa4'
-        print '\xe2\x94\x9c     \x1b[0;97m\xe2\x94\x9c' + 35 * '\xe2\x94\x80' + '\xe2\x94\x90      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c     |\xf0\x9f\x8c\xb9Author Name: Zahid Mahmood     \xf0\x9f\x8c\xb9|      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c     |\xf0\x9f\x8c\xb9GitHub     : github.com\\ZKWorld\xf0\x9f\x8c\xb9|      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c     |\xf0\x9f\x8c\xb9YouTube    : Zee K World       \xf0\x9f\x8c\xb9|      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c     |\xf0\x9f\x8c\xb9TeleGram   : t.me\\ZeeKWorld    \xf0\x9f\x8c\xb9|      \xe2\x94\xa4'
-        print '\xe2\x94\x9c     \x1b[0;97m\xe2\x94\x94' + 35 * '\xe2\x94\x80' + '\xe2\x94\x98      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
-
+        [\033[1;97m\033[1;41m IF YOU DREAM IT CAN YOU DO IT \033[0m]
+        print '\033[1;97m--------------------------------------------'
+        print '\033[1;37m  \033[1;30m> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN                '
+        print '\033[1;37m  \033[1;30m> \033[1;31mVERSION  \033[1;36m: \033[1;32m2.0                       '
+        print '\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420    '
+        print '\033[1;97m--------------------------------------------'
     zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Type ZK/zk To Enter The ZMBF: ')
     if zk == '':
         print '  [!] Choose An Option'
