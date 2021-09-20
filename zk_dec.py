@@ -534,7 +534,7 @@ def public(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\033[1;97m[\033[1;92m•\033[1;97m] Total Public Friends : \033[1;32m%s' % len(id))
+        zks('\033[1;97m[\033[1;92m*\033[1;97m] Total Public Friends : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
