@@ -178,16 +178,6 @@ def results(ok, cp):
         zks('\x1b[0;97m|  Total Cracked OK Idz: \x1b[0;92m' + str(len(ok)))
         zks('\x1b[0;97m|  Total Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
         print '\xe2\x94\x9c  Cracked Idz Has Been Saved In Cracked Folder  \xe2\x94\xa4'
-        print '\xe2\x94\x9c  Subscribe My Channel: Zee K World             \xe2\x94\xa4'
-        print '\xe2\x94\x9c  Subscribe My Channel: Zee K Tricks            \xe2\x94\xa4'
-        print '\xe2\x94\x9c  Like And Follow My Facebook Page: Zee K World \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
-        print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-        print '\xe2\x94\x9c        \x1b[0;97m\xe2\x94\x9c' + 31 * '\xe2\x94\x80' + '\xe2\x94\x90       \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c        |\xf0\x9f\x8c\xb9Thanks For Using Zmbf.     \xf0\x9f\x8c\xb9|       \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c        |\xf0\x9f\x8c\xb9Remember Me In Your Prayers\xf0\x9f\x8c\xb9|       \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c        |\xf0\x9f\x8c\xb9Khuda Hafiz.               \xf0\x9f\x8c\xb9|       \xe2\x94\xa4'
-        print '\xe2\x94\x9c        \x1b[0;97m\xe2\x94\x94' + 31 * '\xe2\x94\x80' + '\xe2\x94\x98       \xe2\x94\xa4'
         print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
         raw_input('[\xe2\x9e\xa3] Press Any Key To Go Back To Cracking Menu: ')
         cracking_menu()
@@ -230,12 +220,12 @@ def login():
     except (KeyError, IOError):
         os.system('clear')
         print logo
-        print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-        print '\x1b[0;97m\xe2\x94\x9c     |\xf0\x9f\x8c\xb9Author Name : Rishu Khan (Al3X)    \xf0\x9f\x8c\xb9|      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c     |\xf0\x9f\x8c\xb9   Facebook    : www.fb.com/Rishu.X.420\xf0\x9f\x8c\xb9|      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x9c     |\xf0\x9f\x8c\xb9     Version      : 3.0   \xf0\x9f\x8c\xb9|      \xe2\x94\xa4'
-        print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
-    zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Type Alex and run command: ')
+        print '\033[1;97m--------------------------------------------'
+        print '\033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )'
+        print '\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 '
+        print '\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420'
+        print '\033[1;97m--------------------------------------------'
+    zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Enter Password -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
