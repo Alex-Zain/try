@@ -268,9 +268,9 @@ def login():
         os.system('clear')
         print logo
         print '\033[1;97m--------------------------------------------'
-        print '\033[1;37m  \033[1;37m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )'
-        print '\033[1;37m  \033[1;37m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 '
-        print '\033[1;37m  \033[1;37m-> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420'
+        print '\033[1;37m  \033[1;37m-> \033[1;37mAUTHOR   \033[1;37m: \033[1;37mRISHU KHAN ( AL3X )'
+        print '\033[1;37m  \033[1;37m-> \033[1;37mVERSION  \033[1;37m: \033[1;37m3.0 '
+        print '\033[1;37m  \033[1;37m-> \033[1;37mFACEBOOK \033[1;37m: \033[1;37mwww.fb.com/Rishu.X.420'
         print '\033[1;97m--------------------------------------------'
     zk = raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Enter Password -> \033[1;32m')
     if zk == '':
@@ -548,7 +548,7 @@ def pfoll(token):
     print cracklogo
     print '[\033[1;97m\033[1;41m-----Cracking From Public Followers------\033[0m]  '
     print '--------------------------------------------'
-    idt = raw_input('\033[1;97m[\033[1;92m•\033[1;97m]Public ID -> \033[1;32m')
+    idt = raw_input('\033[1;97m[\033[1;92m*\033[1;97m]Public ID -> \033[1;32m')
     try:
         pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
         sp = json.loads(pok.text)
@@ -621,7 +621,7 @@ class crackmenu:
             print cracklogo
             print '\x1b[0;97m Enter Password Like: 786786,000786,102030'
             while True:
-                pwx = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Enter Choose Password -> \033[1;31m')
+                pwx = raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Enter Choose Password -> \033[1;31m')
                 zks('\x1b[0;97mApplying Passwords: \x1b[0;92m%s' % pwx)
                 print '--------------------------------------------'
                 if pwx == '':
