@@ -292,7 +292,7 @@ def zmbf():
         cracking_menu()
     except (KeyError, IOError):
         print loginlogo
-        print '    [\033[1;97m\033[1;41m--------------LOGIN MENU--------------\033[0m] '
+        print '[\033[1;97m\033[1;41m---------------LOGIN MENU---------------\033[0m] '
         print '------------------------------'
         print '   [1] Login Using FB ID Access Token   '
         print '   [2] Login Using FB ID Cookies  '
@@ -319,7 +319,7 @@ def zmbf():
 def cookies():
     os.system('clear')
     print cookieslogo
-    print '[\033[1;97m\033[1;41m----------------Login Using FB ID Cookies----------------\033[0m]   '
+    print '[\033[1;97m\033[1;41m---------Login Using FB ID Cookies--------\033[0m]   '
     print '--------------------------------------------'
     cookies = raw_input(' \x1b[0;97mCookies -> \x1b[0;92m')
     try:
