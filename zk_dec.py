@@ -485,7 +485,7 @@ def friends(token):
 def myfoll(token):
     os.system('clear')
     print cracklogo
-    print '[\033[1;97m\033[1;41m------------Cracking From Followers-------------\033[0m] '
+    print '[\033[1;97m\033[1;41m---------Cracking From Followers----------\033[0m] '
     print '--------------------------------------------'
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
