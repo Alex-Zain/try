@@ -243,7 +243,7 @@ def zmbf():
         cracking_menu()
     except (KeyError, IOError):
         print loginlogo
-        print '     Login Menus
+        print '     Login Menus '
         print '------------------------------'
         print '   [1] Login Using FB ID Access Token   '
         print '   [2] Login Using FB ID Cookies  '
