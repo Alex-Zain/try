@@ -747,7 +747,7 @@ class crackmenu:
 def relogin():
     os.system('clear')
     print checkerlogo
-    print '[\033[1;97m\033[1;41m----------------Checkpoints Checking Menu----------------\033[0m] '
+    print '[\033[1;97m\033[1;41m---------Checkpoints Checking Menu--------\033[0m] '
     print '--------------------------------------------'
     print '\n\x1b[0;97m Example File Name: Cracked/cpz.txt'
     files = raw_input('\x1b[0;97m Enter Cracked Idz File Name -> \033[1;31m')
