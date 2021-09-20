@@ -182,22 +182,21 @@ def login():
         cracking_menu()
     except (KeyError, IOError):
         os.system('clear')
-        print zmbflogo
         print ' [\033[1;97m\033[1;41m IF YOU DREAM IT CAN YOU DO IT \033[0m]'
         print '\033[1;97m--------------------------------------------'
         print '\033[1;37m  \033[1;30m> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN                '
         print '\033[1;37m  \033[1;30m> \033[1;31mVERSION  \033[1;36m: \033[1;32m2.0                       '
         print '\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420    '
         print '\033[1;97m--------------------------------------------'
-    zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Type ZK/zk To Enter The ZMBF: ')
+    zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Type Alex and run command: ')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
         login()
-    elif zk == 'ZK' or zk == 'zk':
+    elif zk == 'Alex' or zk == 'alex':
         zmbf()
     else:
-        print '  [!] Wrong Input! Try Again'
+        print '  \033[1;31m[!] Wrong Input! Try Again'
         time.sleep(2)
         login()
 
