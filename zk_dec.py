@@ -226,7 +226,7 @@ def results(ok, cp):
         zks('  Total Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
         print '\ Cracked Idz Has Been Saved In Cracked Folder  '
         print '\033[1;97m--------------------------------------------'
-        raw_input('[\xe2\x9e\xa3] Press Any Key To Go Back To Cracking Menu: ')
+        raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Press Any Key To Go Back To Cracking Menu: ')
         cracking_menu()
     else:
         print '\n\x1b[0;97m No Cracked Idz Found!'
@@ -272,7 +272,7 @@ def login():
         print '\033[1;37m  \033[1;37m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 '
         print '\033[1;37m  \033[1;37m-> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420'
         print '\033[1;97m--------------------------------------------'
-    zk = raw_input('\033[1;97m[\033[1;92m✓\033[1;97m] Enter Password -> \033[1;32m')
+    zk = raw_input('\033[1;97m[\033[1;92m•\033[1;97m] Enter Password -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
