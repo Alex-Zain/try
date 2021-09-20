@@ -399,10 +399,10 @@ def cracking_menu():
 
     print logo
     print '\x1b[0;97m--------------------------------------------'
-    print H + ' \033[1;97m[\033[1;92m*\033[1;97m]Name        : \x1b[0;92m' + H + H + '%s' % nama
-    print '     \033[1;97m[\033[1;92m*\033[1;97m]User ID     : \x1b[0;92m' + H + id
-    print '     \033[1;97m[\033[1;92m*\033[1;97m]User Dob    : \x1b[0;92m' + H + dob
-    print '     \033[1;97m[\033[1;92m*\033[1;97m]User Gender : \x1b[0;92m' + H + gender
+    print H + ' \033[1;97m[\033[1;92m*\033[1;97m] Name        : \x1b[0;92m' + H + H + '%s' % nama
+    print '     \033[1;97m[\033[1;92m*\033[1;97m] User ID     : \x1b[0;92m' + H + id
+    print '     \033[1;97m[\033[1;92m*\033[1;97m] User Dob    : \x1b[0;92m' + H + dob
+    print '     \033[1;97m[\033[1;92m*\033[1;97m] User Gender : \x1b[0;92m' + H + gender
     print '\x1b[0;97m--------------------------------------------'
     print '[\033[1;97m\033[1;41m--------------Cracking Menu---------------\033[0m] '
     print '--------------------------------------------'
@@ -513,6 +513,7 @@ def myfoll(token):
 
 
 def public(token):
+    os.system('clear')
     print cracklogo
     print '[\033[1;97m\033[1;41m----------Cracking From Public ID---------\033[0m] '
     print '--------------------------------------------'
