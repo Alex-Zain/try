@@ -113,7 +113,7 @@ def tod():
         time.sleep(1)
 
 
-zmbflogo = """
+logo = """
 \033[1;97m--------------------------------------------
 \033[1;37m  d888888b        d8888b. d88888b db    db  
 \033[1;37m  `~~88~~'        88  `8D 88'     `8b  d8'  
@@ -203,6 +203,8 @@ def login():
         token = open('login.txt', 'r')
         cracking_menu()
     except (KeyError, IOError):
+    os.system('clear')
+    print logo
     zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Type Alex and run command: ')
     if zk == '':
         print '  [!] Choose An Option'
