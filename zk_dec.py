@@ -650,7 +650,7 @@ class crackmenu:
 
         elif zk in ('D', 'd', '1', '01'):
             os.system('clear')
-            print logo
+            print loginlogo
             print '[\033[1;97m\033[1;41m---------------- Cracking Started----------------\033[0m] '
             print '--------------------------------------------'
 
