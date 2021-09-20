@@ -205,7 +205,7 @@ def login():
         print '├   \033[1;37m➤ \033[1;37mVERSION  \033[1;37m: 3.0                    \033[1;37m  ┤'
         print '├   \033[1;37m➤ \033[1;37mFACEBOOK \033[1;37m: www.fb.com/Rishu.X.420 \033[1;37m ┤'
         print '├       \033[1;97m\033[1;41mIF YOU DREAM IT CAN YOU DO IT\033[0m    ┤'
-        print '\033[1;97m--------------------------------------------'
+        print '└────────────────────────────────────────────────┘'
     zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Type Alex and run command: ')
     if zk == '':
         print '  [!] Choose An Option'
