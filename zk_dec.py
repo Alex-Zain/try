@@ -222,10 +222,10 @@ def results(ok, cp):
     if len(ok) != 0 or len(cp) != 0:
         print ''
         print '\033[1;97m--------------------------------------------'
-        zks('  Total Cracked FB Idz: \x1b[0;92m' + str(len(ok)) + '\x1b[0;97m/' + str(len(cp)))
-        zks('  Total Cracked OK Idz: \x1b[0;92m' + str(len(ok)))
-        zks('  Total Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
-        print 'Cracked Idz Has Been Saved In Cracked Folder  '
+        zks('  \033[1;97mTotal Cracked FB Idz: \x1b[0;92m' + str(len(ok)) + '\x1b[0;97m/' + str(len(cp)))
+        zks('  \033[1;97mTotal Cracked OK Idz: \x1b[0;92m' + str(len(ok)))
+        zks('  \033[1;97mTotal Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
+        print '\033[1;97mCracked Idz Has Been Saved In Cracked Folder  '
         print '\033[1;97m--------------------------------------------'
         raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Press Any Key To Go Back To Cracking Menu: ')
         cracking_menu()
