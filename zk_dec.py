@@ -203,7 +203,6 @@ def login():
         token = open('login.txt', 'r')
         cracking_menu()
     except (KeyError, IOError):
-    os.system('clear')
     print logo
     zk = raw_input('\n  \x1b[0;97m[\x1b[0;92m\xe2\x9e\xa3\x1b[0;97m] Type Alex and run command: ')
     if zk == '':
