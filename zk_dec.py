@@ -404,7 +404,6 @@ def cracking_menu():
     print ' \x1b[0;97mUser Dob    : \x1b[0;92m' + H + dob
     print ' \x1b[0;97mUser Gender : \x1b[0;92m' + H + gender
     print '\x1b[0;97m--------------------------------------------'
-    print ''
     print '[\033[1;97m\033[1;41m--------------Cracking Menu---------------\033[0m] '
     print '--------------------------------------------'
     print ' [01] Crack From Friends '
@@ -548,7 +547,7 @@ def public(token):
 def pfoll(token):
     os.system('clear')
     print cracklogo
-    print '     [\033[1;97m\033[1;41m----------------Cracking From Public Followers----------------\033[0m]  '
+    print '[\033[1;97m\033[1;41m-----Cracking From Public Followers------\033[0m]  '
     print '--------------------------------------------'
     idt = raw_input('\x1b[0;97mPublic ID -> \033[1;32m')
     try:
