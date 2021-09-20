@@ -353,7 +353,7 @@ def tokenz():
         cracking_menu()
     except (KeyError, IOError):
         print tokenlogo
-        print '[\033[1;97m\033[1;41m----------------Login Using FB ID Access Token----------------\033[0m]  '
+        print '[\033[1;97m\033[1;41m------Login Using FB ID Access Token------\033[0m]  '
         print '\033[1;97m--------------------------------------------'
         
     token = raw_input(' \x1b[0;97m Token -> \x1b[0;92m')
