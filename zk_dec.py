@@ -148,7 +148,8 @@ cookieslogo = """
 \033[1;37m  \033[1;37m-> \033[1;37mVERSION  \033[1;37m: \033[1;37m3.0 
 \033[1;37m  \033[1;37m-> \033[1;37mFACEBOOK \033[1;37m: \033[1;37mwww.fb.com/Rishu.X.420
 \033[1;97m--------------------------------------------"""
-tokenlogo = """
+tokenlog
+o = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
 \033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
@@ -536,7 +537,7 @@ def public(token):
             zk.write(a['id'] + '<=>' + a['name'] + '\n')
 
         zk.close()
-        zks('\033[1;97m[\033[1;92m*\033[1;97m] Total Public Friends : \033[1;32m%s' % len(id))
+        zks('\033[1;97m[\033[1;92m*\033[1;97m] Total Public IDs : \033[1;32m%s' % len(id))
         return crackz(filen)
     except (KeyError, IOError):
         os.remove(file)
@@ -652,6 +653,8 @@ class crackmenu:
         elif zk in ('D', 'd', '1', '01'):
             os.system('clear')
             print loginlogo
+            zks('\033[1;97m[\033[1;92m*\033[1;97m] Target Name : \033[1;32m' + sp['name'])
+            zks('\033[1;97m[\033[1;92m*\033[1;97m] Total Public IDs : \033[1;32m%s' % len(id))
             print '[\033[1;97m\033[1;41m-------------Cracking Started-------------\033[0m] '
             print '--------------------------------------------'
 
