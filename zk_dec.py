@@ -718,7 +718,6 @@ class crackmenu:
                     xz = zz[1].split(' ')
                     if len(xz) >= 5:
                         pws = [
-                        pws = [
                          xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3] + ' ' + xz[4]]
                     elif len(xz) <= 1:
                         pws = [
