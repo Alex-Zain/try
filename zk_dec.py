@@ -652,7 +652,7 @@ class crackmenu:
         elif zk in ('D', 'd', '1', '01'):
             os.system('clear')
             print loginlogo
-            print '[\033[1;97m\033[1;41m---------------- Cracking Started----------------\033[0m] '
+            print '[\033[1;97m\033[1;41m-------------Cracking Started-------------\033[0m] '
             print '--------------------------------------------'
 
             self.passwords()
@@ -718,7 +718,7 @@ class crackmenu:
                     xz = zz[1].split(' ')
                     if len(xz) >= 5:
                         pws = [
-                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3] + ' ' + xz[4]]
+                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3] + ' ' + xz[4] + ' ' + xz[5]]
                     elif len(xz) <= 1:
                         pws = [
                          xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + ' ' + xz[1]]
@@ -731,6 +731,9 @@ class crackmenu:
                     elif len(xz) <= 4:
                         pws = [
                          xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3]]
+                    elif len(xz) <= 5:
+                        pws = [
+                         xz[0], xz[0] + '@123', xz[0] + '12', xz[0] + '123', xz[0] + '1234', + xz[1] + ' ' + xz[2] + ' ' + xz[3] + ' ' + xz[3]]
                     elif len(xz) <= 3:
                         pws = [
                          '123456', 'i love you', '786786', '223344', '102030']
