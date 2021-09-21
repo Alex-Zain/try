@@ -665,7 +665,7 @@ class crackmenu:
     def api(self, user, zkth):
         global loop
         (
-         sys.stdout.write('\r[\xe2\x9e\xa5] Cracking: %s/%s \xe2\x9e\xa4 OK:%s \xe2\x9e\xa4 CP:%s \n' % (loop, len(self.id), len(ok), len(cp))),)
+         sys.stdout.write('\r[\xe2\x9e\xa5] Cracking: %s/%s \xe2\x9e\xa4 OK:%s \xe2\x9e\xa4 CP:%s \r' % (loop, len(self.id), len(ok), len(cp))),)
         sys.stdout.flush()
         for pw in zkth:
             pw = pw.lower()
