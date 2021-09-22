@@ -116,8 +116,8 @@ def tod():
 logo = """
 \033[1;37m     .d8b.  db      \033[1;32md8888b. \033[1;37mdb    db 
 \033[1;37m    d8' `8b 88      \033[1;32mVP  `8D \033[1;37m`8b  d8' 
-\033[1;30m    88ooo88 88        \033[1;30moooY'  \033[1;30m`8bd8'  
-\033[1;30m    88~~~88 88        \033[1;30m~~~b.  \033[1;30m.dPYb.  
+\033[1;30m    88ooo88 88        \033[1;32moooY'  \033[1;30m`8bd8'  
+\033[1;30m    88~~~88 88        \033[1;32m~~~b.  \033[1;30m.dPYb.  
 \033[1;37m    88   88 88booo. \033[1;32mdb   8D \033[1;37m.8P  Y8. 
 \033[1;37m    YP   YP Y88888P \033[1;32mY8888P' \033[1;37mYP    YP """
 loginlogo = """
@@ -652,6 +652,7 @@ class crackmenu:
         elif zk in ('D', 'd', '1', '01'):
             os.system('clear')
             print loginlogo
+            print ("\033[1;92mPlease Wait Some time Cloning hash been start")
             print '[\033[1;97m\033[1;41m-------------Cracking Started-------------\033[0m] '
             print '--------------------------------------------'
 
