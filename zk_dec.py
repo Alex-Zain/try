@@ -652,8 +652,6 @@ class crackmenu:
         elif zk in ('D', 'd', '1', '01'):
             os.system('clear')
             print loginlogo
-            print ('\033[1;97m[\033[1;92m*\033[1;97m] Target Name : \033[1;32m' + sp['name'])
-            print ('\033[1;97m[\033[1;92m*\033[1;97m] Total Public IDs : \033[1;32m%s' % len(id))
             print ("\033[1;97mPlease Wait Some time Cloning has been start")
             print '[\033[1;97m\033[1;41m-------------Cracking Started-------------\033[0m] '
             print '--------------------------------------------'
